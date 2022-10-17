@@ -3,9 +3,7 @@ Projeto de aplicativo de todo em python
 Gabriel Batista
 '''
 
-import datetime
-from Tarefa import Tarefa
-from Utils import adicionarTarefa, listaComandos, comandoHandler
+from Utils import listaComandos, comandoHandler
 
 tarefas : list = []
 comandos : list = ["Add Tarefa", "Listar Tarefas", "Ver Tarefa", "Finalizar Tarefa", "Excluir Tarefa", "Sair"]
